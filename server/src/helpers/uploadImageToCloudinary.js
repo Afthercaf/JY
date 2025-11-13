@@ -1,9 +1,9 @@
 import { v2 as cloudinary } from 'cloudinary';
 
 cloudinary.config({
-  cloud_name: "dbogpb2mz",
-  api_key: "277444742892654",
-  api_secret: "Rbn3Q-xR7t38fMydSvar9RbVNuw",
+  cloud_name: "dww7jqzne",
+  api_key: "859572793359467",
+  api_secret: "IAQ7bjXiwy-mH0MJjcMcSOTTOO4",
 });
 
 export default async function uploadImageToCloudinary(file) {
