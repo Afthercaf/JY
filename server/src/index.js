@@ -34,8 +34,8 @@ const server = http.createServer(app);
 
 const SOCKET_ALLOWED_ORIGINS = [
   "http://localhost:5173",
-  // "https://flucsa.onrender.com",
-  // "https://www.flucsa.com.mx",
+  "https://jy-1.onrender.com",
+  "https://jy-2.onrender.com",
   // "https://flucsa.com.mx",
 ];
 
