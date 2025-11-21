@@ -26,7 +26,7 @@ const COMMON_NAV_ITEMS = [
   { path: '/servicios', label: 'Servicios', icon: Settings },
   { path: '/acerca-de-nosotros', label: 'Nosotros', icon: Users },
   { path: '/contacto', label: 'Contacto', icon: Phone },
-  { path: '/catalogo-pdfs', label: 'Catálogos', icon: FileText },
+ // { path: '/catalogo-pdfs', label: 'Catálogos', icon: FileText },
 ];
 
 // Rutas específicas para usuarios autenticados (no admin)

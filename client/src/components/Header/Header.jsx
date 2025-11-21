@@ -14,7 +14,7 @@ import { logoutUser } from '../../features/user/usersSlice';
 
 import Navigation from '../Navigation/Navigation';
 import Search from './Search/Search';
-import LogoCompleto from '../../assets/images/jy.jpg';
+import LogoCompleto from '../../assets/images/jy.png';
 import UserDropdown from './Search/userDropdown';
 
 const Header = ({ onCartToggle }) => {
@@ -68,7 +68,7 @@ const Header = ({ onCartToggle }) => {
           <div className="max-w-[1500px] mx-auto px-4 py-3 flex items-center gap-4">
             {/* Logo */}
             <Link to="/" className="flex-shrink-0 group cursor-pointer">
-              <div className="relative overflow-hidden rounded-xl bg-gray-100/50 p-3 backdrop-blur-md border border-gray-200 transition-all duration-300 hover:border-green-500/50 hover:bg-gray-200/50 hover:scale-105 shadow-md">
+              <div>
                 <img
                   src={LogoCompleto}
                   alt="FLUCSA Sports"
